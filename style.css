@@ -1,3 +1,17 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div.wrapper {
+    width: 100%;
+    text-align: center;
+}
+
+div.game {
+    display: inline-block;
+    margin: 0 auto;
+}
+
 div.row {
     display: flex;
 }
@@ -8,15 +22,21 @@ div.square {
 }
 
 div.light {
-    background-color: lightgray;
+    background-color: #97a7fe;
 }
 
 div.dark {
-    background-color: darkgray;
+    background-color: #292524;
 }
 
 img.game-piece {
-    width: 100px;
-    height: 100px;
+    width: 99px;
+    height: 99px;
     border-radius: 50%;
+}
+
+
+h2 {
+    text-align: center;
+    background-color: none;
 }
